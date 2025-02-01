@@ -1,0 +1,13 @@
+services:
+  - name: sales-app
+    type: web
+    runtime: node
+    env: node
+    region: oregon  # Change based on your region
+    plan: free  # Change to "starter" or "pro" if needed
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+    autoDeploy: true  # Set to false if you want manual deployments
