@@ -57,3 +57,13 @@ button:hover {
   font-weight: bold;
   color: #ffffff;
 }
+footer {
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
